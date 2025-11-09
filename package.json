@@ -1,0 +1,26 @@
+{
+  "name": "restaurant-api",
+  "version": "1.0.0",
+  "description": "Basic Restaurant API with Express, logging and validation middleware",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "express",
+    "api",
+    "restaurant"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-validator": "^7.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "eslint": "^9.11.1"
+  }
+}
